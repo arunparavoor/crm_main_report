@@ -28,6 +28,8 @@
         <template id="assets_backend" name="CRM assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
                 <script type="text/javascript" src="/odoo_crm_dashboard/static/src/js/crm_dashboard.js"/>
+                <script type="text/javascript" src="/odoo_crm_dashboard/static/lib/charts/Chart.min.js"/>
+                <script type="text/javascript" src="/odoo_crm_dashboard/static/lib/charts/Chart.bundle.min.js"/>
                 <!-- Css scripts for dashboard view and table -->
                 <link rel="stylesheet" href="/odoo_crm_dashboard/static/src/css/crm_dashboard.css"/>
                 <link rel="stylesheet" href="/odoo_crm_dashboard/static/lib/dataTables/datatables.min.css"/>
